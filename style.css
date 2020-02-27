@@ -18,10 +18,16 @@ footer {
   font-size: 1.5rem;
   text-align: center; }
 
+header {
+  background: url(../images/aaron-burson-yihqdpsk9ji-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  margin: 0; }
+
 .intro {
-  margin: 1rem;
-  padding: 1rem;
-  background-color: #78A83B; }
+  background-color: #E6D5BE;
+  padding: 1rem; }
 
 html {
   margin: 0;
@@ -38,7 +44,6 @@ body {
   display: grid;
   grid-template-rows: repeat(10, 10%);
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1em;
   justify-items: center;
   align-items: center; }
 
