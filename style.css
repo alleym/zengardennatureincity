@@ -6,7 +6,7 @@
   align-items: center; }
 
 .main {
-  background-color: rgb 220, 154, 118;
+  background-color: #dc9a76;
   margin: 1rem;
   padding: 1rem; }
 
@@ -17,6 +17,11 @@ footer {
   background-color: rgba(48, 42, 38, 0.5);
   font-size: 1.5rem;
   text-align: center; }
+
+.intro {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #78A83B; }
 
 html {
   margin: 0;
@@ -54,5 +59,3 @@ body {
   grid-row-end: 11;
   grid-column-start: 4;
   grid-column-end: 5; }
-
-/*# sourceMappingURL=style.css.map */
