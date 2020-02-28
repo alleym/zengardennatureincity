@@ -1,0 +1,54 @@
+// VARIABLES
+$color-1: #78A83B; // green - rgb(120, 168, 59)
+$color-2: #DC9A76; // peach - rgb(220, 154, 118)
+$color-3: #E6D5BE; // light gray - rgb(230, 213, 190)
+$color-4: #302A26; // dark gray - rgb(48, 42, 38)
+$color-5: #C4EC76; // light green - rgb(196, 236, 118)
+
+
+.sidebar {
+    background: $color-3;
+    padding: 3em;
+}
+
+.select, .archives, .resources {
+    color: $color-1;
+    text-transform: uppercase;
+    }
+
+
+div .design-selection, .design-archives, .zen-resources {
+   
+    nav ul li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin: 0 0 0 -1em;
+      }
+    ul li a {
+        text-decoration: none;
+        color: $color-4;
+        
+    }
+}  
+
+.design-name {
+    color: $color-4;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}  
+.designer-name {
+    font-style: italic;
+}
+.designer-name::after {
+    line-height: 80%;
+
+}
+
+.design-name::after {
+ content: '\A'; 
+white-space: pre;
+// line-height: 90%;
+}
+
+
