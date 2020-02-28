@@ -9,47 +9,17 @@ $color-3: #E6D5BE; // light gray - rgb(230, 213, 190)
 $color-4: #302A26; // dark gray - rgb(48, 42, 38)
 $color-5: #C4EC76; // light green - rgb(196, 236, 118)
 
-html {
-	margin: 0;
-	padding: 0;
-  }
-  
 body { 
-	font: 75% georgia, sans-serif;
-	line-height: 1.88889;
 	background: white;
 	margin: 0; 
 	padding: 0;
-	}
+  }
+  // display flex *********************
+  .page-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 
-// display grid ********************
-.page-wrapper {
-  display: grid;
-  grid-template-rows: repeat(100, 1%);
-  grid-template-columns: 1fr;
-  grid-gap: .1rem; 
-  justify-items: center;
-  align-items: center;
-  }
-  .intro {
-    grid-row-start: 1;
-    grid-row-end: 16;
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-  .sidebar {
-    grid-row-start: 16;
-    grid-row-end: 27;
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
-  .main {
-    grid-row-start: 27;
-    grid-row-end: 100;
-    grid-column-start: 1;
-    grid-column-end: 2;
-  }
- 
 /* Media Query for medium + screens */
 @media only screen and (min-width: 32.5em) {
 .page-wrapper {
