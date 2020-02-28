@@ -1,14 +1,26 @@
-
 header{
     background: url(../images/aaron-burson-yihqdpsk9ji-unsplash.jpg);
     background-position: center;
     background-size: cover;
-    padding: 0;
-    margin: 0;
+    margin: 0 0;
 }
-
 .intro{
     background-color: #E6D5BE;
-    padding: 1rem;
+    margin: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    
 }
 
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+    header{
+        padding-top: 300px;
+    }
+    
+    
+    .intro{
+        padding-top: 250px;
+    }
+}
