@@ -1,68 +1,53 @@
-.main {
-  display: grid;
-  grid-template-columns: auto;
-  grid-gap: 1em;
-  justify-items: center;
-  align-items: center; }
+/*
+Error: File to import not found or unreadable: sidebar.
+       Load path: /Users/autryjohnson/Desktop/ZenGarden/zengardennatureincity/scss
+        on line 3 of /Users/autryjohnson/Desktop/ZenGarden/zengardennatureincity/scss/style.scss
 
-.main {
-  background-color: #dc9a76;
-  margin: 1rem;
-  padding: 1rem; }
+1: @import 'main';
+2: @import 'intro';
+3: @import 'sidebar';
+4: 
+5: // VARIABLES
+6: $color-1: #78A83B; // green - rgb(120, 168, 59)
+7: $color-2: #DC9A76; // peach - rgb(220, 154, 118)
+8: $color-3: #E6D5BE; // light gray - rgb(230, 213, 190)
 
-footer {
-  width: 100%;
-  height: 4rem;
-  padding: 1rem;
-  background-color: rgba(48, 42, 38, 0.5);
-  font-size: 1.5rem;
-  text-align: center; }
-
-header {
-  background: url(../images/aaron-burson-yihqdpsk9ji-unsplash.jpg);
-  background-position: center;
-  background-size: cover;
-  margin: 0 0;
-  padding-top: 300px; }
-
-.intro {
-  background-color: #E6D5BE;
-  margin: 1rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
-  padding-top: 250px; }
-
-html {
-  margin: 0;
-  padding: 0; }
-
-body {
-  font: 75% georgia, sans-serif;
-  line-height: 1.88889;
-  background: white;
-  margin: 0;
-  padding: 0; }
-
-.page-wrapper {
-  display: grid;
-  grid-template-rows: repeat(10, 10%);
-  grid-template-columns: repeat(4, 1fr);
-  align-items: center; }
-
-.intro {
-  grid-row-start: 1;
-  grid-row-end: 3;
-  grid-column-start: 1;
-  grid-column-end: 5; }
-
-.main {
-  grid-row-start: 3;
-  grid-row-end: 11;
-  grid-column-start: 1;
-  grid-column-end: 4; }
-
-.sidebar {
-  grid-row-start: 3;
-  grid-row-end: 11;
-  grid-column-start: 4;
-  grid-column-end: 5; }
+Backtrace:
+/Users/autryjohnson/Desktop/ZenGarden/zengardennatureincity/scss/style.scss:3
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:44:in `import'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:290:in `render'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:400:in `run'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: sidebar.\A        Load path: /Users/autryjohnson/Desktop/ZenGarden/zengardennatureincity/scss\A         on line 3 of /Users/autryjohnson/Desktop/ZenGarden/zengardennatureincity/scss/style.scss\A \A 1: @import 'main';\A 2: @import 'intro';\A 3: @import 'sidebar';\A 4: \A 5: // VARIABLES\A 6: $color-1: #78A83B; // green - rgb(120, 168, 59)\A 7: $color-2: #DC9A76; // peach - rgb(220, 154, 118)\A 8: $color-3: #E6D5BE; // light gray - rgb(230, 213, 190)"; }
