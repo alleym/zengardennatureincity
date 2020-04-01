@@ -26,7 +26,8 @@
   padding: 1rem;
   font-size: 1.2rem;
   background-color: white;
-  opacity: .8; }
+  opacity: .8;
+  margin: 0; }
 
 #zen-participation {
   background: url(../images/purple-daisy-w800-h600-lowres.jpg);
@@ -47,7 +48,8 @@
   text-align: left;
   color: white;
   background-color: #302A26;
-  opacity: .7; }
+  opacity: .7;
+  margin: 0; }
 
 #zen-benefits {
   position: relative;
@@ -105,7 +107,8 @@
   padding: 1rem;
   text-align: left;
   background-color: white;
-  opacity: .5; }
+  opacity: .5;
+  margin: 0; }
 
 #zen-requirements > p:nth-last-child(1) {
   margin-bottom: 24rem; }
