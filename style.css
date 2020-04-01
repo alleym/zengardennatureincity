@@ -18,20 +18,35 @@ footer {
   font-size: 1.2rem;
   text-align: center; }
 
-.intro {
+header {
   background: url(../images/aaron-burson-yihqdpsk9ji-unsplash.jpg);
   background-position: center;
   background-size: cover;
-  padding: 20px; }
+  padding: 40px; }
+
+header h1 {
+  padding-top: 20px;
+  padding-left: 20px; }
+
+header h2 {
+  padding-left: 20px; }
 
 .intro h1 {
-  padding-top: 20px;
   font-size: 2.5rem; }
 
 .intro div {
   background-color: white;
   padding: 10px;
   opacity: .8; }
+
+div .summary, div .preamble {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 20px;
+  background-color: #C4EC76; }
+
+div .summary {
+  margin-top: 1rem; }
 
 /* Media Query for medium + screens */
 @media only screen and (min-width: 32.5em) {
@@ -71,7 +86,7 @@ div .design-selection ul li a, .design-archives ul li a, .zen-resources ul li a 
 
 body {
   background: white;
-  font-family: 'Gothic A1';
+  font-family: "Gothic A1";
   margin: 0;
   padding: 0; }
 
