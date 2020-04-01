@@ -23,12 +23,16 @@ header h2{
 div .summary, div .preamble{
     margin-left: 1rem;
     margin-right: 1rem;
-    padding: 20px;
     background-color: #C4EC76;
+}
+div .preamble{
+    padding-top: 20px;
 }
 div .summary{
     margin-top: 1rem;
+    padding-bottom: 20px;
 }
+
 
 
 

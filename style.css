@@ -26,7 +26,7 @@
   font-weight: 900;
   padding: 1rem;
   font-size: 1.2rem;
-  background-color: #78A83B;
+  background-color: white;
   opacity: .8; }
 
 #zen-participation {
@@ -123,6 +123,7 @@ footer {
   height: 200px;
   justify-content: center;
   background: url(../images/px-visnu-deva-WZBSRWPKBDw-unsplash.jpg);
+  opacity: .2;
   background-position-y: center;
   background-size: cover;
   padding: 2rem; }
@@ -160,11 +161,14 @@ header h2 {
 div .summary, div .preamble {
   margin-left: 1rem;
   margin-right: 1rem;
-  padding: 20px;
   background-color: #C4EC76; }
 
+div .preamble {
+  padding-top: 20px; }
+
 div .summary {
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  padding-bottom: 20px; }
 
 /* Media Query for medium + screens */
 @media only screen and (min-width: 32.5em) {
