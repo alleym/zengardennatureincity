@@ -1,6 +1,7 @@
 @import 'main';
 @import 'intro';
 @import 'sidebar';
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Uncial+Antiqua&display=swap');
 
 // VARIABLES
 $color-1: #78A83B; // green - rgb(120, 168, 59)
@@ -8,13 +9,21 @@ $color-2: #DC9A76; // peach - rgb(220, 154, 118)
 $color-3: #E6D5BE; // light gray - rgb(230, 213, 190)
 $color-4: #302A26; // dark gray - rgb(48, 42, 38)
 $color-5: #C4EC76; // light green - rgb(196, 236, 118)
-$font-bodycopy: 'Gothic A1';
+$font-body: 'Gothic A1', sans-serif;
+$font-headers: 'Uncial Antiqua', cursive;
 
 body { 
   background: white;
-  font-family: 'Gothic A1';
+  font-family: $font-body;
 	margin: 0; 
-	padding: 0;
+  padding: 0;
+
+  }
+  p {
+    font-family: $font-body;
+  }
+  h1, h2, h3 {
+    font-family: $font-headers;
   }
   // display flex *********************
   .page-wrapper {
@@ -47,7 +56,7 @@ grid-template-columns: repeat(4, 1fr);
 
 .sidebar {
   grid-row-start: 3;
-  grid-row-end: 8;
+  grid-row-end: 11;
   grid-column-start: 4;
   grid-column-end: 5;
 }
