@@ -19,7 +19,7 @@
   color: white;
   font-size: 2.5rem;
   font-weight: 900;
-  text-align: center;
+  text-align: left;
   border-bottom: 2px solid white; }
 
 #zen-explanation > p {
@@ -41,7 +41,7 @@
   color: white;
   font-size: 2.5rem;
   font-weight: 900;
-  text-align: center;
+  text-align: left;
   border-bottom: 2px solid white; }
 
 #zen-participation > p {
@@ -64,9 +64,11 @@
 
 #zen-benefits > h3 {
   display: block;
-  text-align: center;
+  text-align: left;
   color: white;
-  font-size: 4rem; }
+  font-size: 2.5rem;
+  font-weight: 900;
+  border-bottom: 2px solid white; }
 
 #zen-benefits > p {
   display: none;
@@ -102,7 +104,7 @@
   color: white;
   font-size: 2.5rem;
   font-weight: 900;
-  text-align: center;
+  text-align: left;
   border-bottom: 2px solid white; }
 
 #zen-requirements > p {
