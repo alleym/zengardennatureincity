@@ -26,7 +26,7 @@
   font-weight: 900;
   padding: 1rem;
   font-size: 1.2rem;
-  background-color: #78A83B;
+  background-color: white;
   opacity: .8; }
 
 #zen-participation {
@@ -123,6 +123,7 @@ footer {
   height: 200px;
   justify-content: center;
   background: url(../images/px-visnu-deva-WZBSRWPKBDw-unsplash.jpg);
+  opacity: .2;
   background-position-y: center;
   background-size: cover;
   padding: 2rem; }
@@ -136,20 +137,38 @@ footer > a {
   background-color: #302A26;
   opacity: .8; }
 
-.intro {
+header {
   background: url(../images/aaron-burson-yihqdpsk9ji-unsplash.jpg);
   background-position: center;
   background-size: cover;
-  padding: 20px; }
+  padding: 40px; }
+
+header h1 {
+  padding-top: 20px;
+  padding-left: 20px; }
+
+header h2 {
+  padding-left: 20px; }
 
 .intro h1 {
-  padding-top: 20px;
   font-size: 2.5rem; }
 
 .intro div {
   background-color: white;
   padding: 10px;
   opacity: .8; }
+
+div .summary, div .preamble {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: #C4EC76; }
+
+div .preamble {
+  padding-top: 20px; }
+
+div .summary {
+  margin-top: 1rem;
+  padding-bottom: 20px; }
 
 /* Media Query for medium + screens */
 @media only screen and (min-width: 32.5em) {
@@ -189,7 +208,7 @@ div .design-selection ul li a, .design-archives ul li a, .zen-resources ul li a 
 
 body {
   background: white;
-  font-family: 'Gothic A1';
+  font-family: "Gothic A1";
   margin: 0;
   padding: 0; }
 
