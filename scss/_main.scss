@@ -66,12 +66,10 @@
 
 // benefits
 #zen-benefits {
-    position: relative;
     background: url(../images/steffi-pereira-DsDaET_OlCw-unsplash-w800-h533-lowres.jpg);
     background-position: center;
     background-size: cover;
     padding: 2rem;
-    height: 300px;
 }
 #zen-benefits > h3 {
     display: block;
@@ -82,29 +80,15 @@
     border-bottom: 2px solid white;
 }
 #zen-benefits > p {
-    display: none;
-    padding: 1rem;
-    position: absolute;
-    bottom: 0;
-    margin-left:-100%;
-    transition: all .4s ease;
-  }
-#zen-benefits:hover > h3 {
-    display: none;
-  }
-#zen-benefits:hover > p {
-    display: block;
-    color: black;
+    font-size: 1.3rem;
     font-weight: 900;
+    padding: 1rem;
+    text-align: left;
+    color: black;
     background-color: white;
     opacity: .7;
-    font-size: 1.3rem;
-    margin-right: 2rem;
-    margin-left: 0;
-    padding: 1rem;
-    cursor:pointer;
-    transition: all .4s ease;
-  }
+    margin: 0;
+}
 
 // Requirements
 #zen-requirements {
@@ -150,9 +134,59 @@ footer {
 footer > a {
     color: white;
     text-align: center;
+    justify-content: center;
     font-weight: 900;
     padding: 1rem;
     font-size: 1.2rem;
     background-color: #302A26;
     opacity: .8;
+    height: 50px;
+    width: 50px;
 } 
+// CSS Shapes Animations
+// Shape 1 *****************************
+footer > a:nth-child(1) {
+    clip-path: circle(75%);
+    transition: clip-path 1s;
+}
+footer > a:nth-child(1):hover {
+    clip-path: circle(25%);
+    background: orange;
+} 
+// Shape 2 ********************************
+footer > a:nth-child(2) {
+    clip-path: circle(75%);
+    transition: clip-path 1s;
+}
+footer > a:nth-child(2):hover {
+    clip-path: circle(25%);
+    background: green;
+} 
+// Shape 3
+footer > a:nth-child(3) {
+    clip-path: circle(75%);
+    transition: clip-path 1s;
+}
+footer > a:nth-child(3):hover {
+    clip-path: circle(25%);
+    background: red;
+} 
+// Shape 4
+footer > a:nth-child(4) {
+    clip-path: circle(75%);
+    transition: clip-path 1s;
+}
+footer > a:nth-child(4):hover {
+    clip-path: circle(25%);
+    background: purple;
+} 
+// Shape 5
+footer > a:nth-child(5) {
+    clip-path: circle(75%);
+    transition: clip-path 1s;
+}
+footer > a:nth-child(5):hover {
+    clip-path: circle(25%);
+    background: blue;
+} 
+  
