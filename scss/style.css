@@ -14,7 +14,7 @@
 }
 
 #zen-explanation {
-  background: url(../images/px-visnu-deva-WZBSRWPKBDw-unsplash-w800-h400-lowres.jpg);
+  background: url(../images/man-sitting-on-concrete-block-w800-h533-lowres.jpg);
   background-position: center;
   background-size: cover;
   padding: 2rem;
@@ -95,7 +95,7 @@
 }
 
 #zen-requirements {
-  background: url(../images/keytion-rNoHD6BoQbo-unsplash-w800-h800-lowres.jpg);
+  background: url(../images/keytion-rNoHD6BoQbo-unsplash-w800-h800-lowres.png);
   background-position: center;
   background-size: cover;
   padding: 2rem;
@@ -155,7 +155,7 @@ footer > a {
 }
 
 header {
-  background: url(../images/aaron-burson-withgrass-2.png);
+  background: url(../images/aaron-burson-withgrass.png);
   text-shadow: 3px 3px 10px #000000;
   background-position: center;
   background-size: cover;
@@ -180,7 +180,6 @@ header h2 {
 .intro div {
   background-color: white;
   padding: 10px;
-  opacity: .8;
 }
 
 div .summary, div .preamble {
