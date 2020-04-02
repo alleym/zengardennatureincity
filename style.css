@@ -104,7 +104,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
   grid-template-rows: repeat(auto-fill, minmax(2rem, 60px));
-  gap: 1rem;
+  gap: 2rem;
   height: 200px;
   justify-content: center;
   background: url(../images/visnu-deva-WZBSRWPKBDw-unsplash-w800-h400-lowres-cropped.jpg);
