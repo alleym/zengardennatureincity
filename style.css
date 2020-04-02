@@ -142,7 +142,7 @@ footer > a {
   opacity: .8; }
 
 header {
-  background: url(../images/aaron-burson-yihqdpsk9ji-unsplash-with-grass.jpg);
+  background: url(../images/aaron-burson-withgrass.png);
   background-position: center;
   background-size: cover;
   padding: 40px; }
@@ -251,3 +251,5 @@ h1, h2, h3 {
     grid-row-end: 11;
     grid-column-start: 4;
     grid-column-end: 5; } }
+
+/*# sourceMappingURL=style.css.map */
