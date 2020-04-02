@@ -27,6 +27,12 @@
   background-color: white;
   opacity: .9; }
 
+#zen-participation {
+  background: url(../images/purple-daisy.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 2rem; }
+
 #zen-participation > h3 {
   color: black;
   text-align: center; }
