@@ -14,14 +14,12 @@ $font-headers: 'Uncial Antiqua', cursive;
 
 body { 
   background: white;
-<<<<<<< HEAD
   font-family: $font-body;
-=======
-  font-family: $font-bodycopy;
->>>>>>> 35646e23a10d5679136c689fe9724b3c998ee0c7
 	margin: 0; 
   padding: 0;
-
+  }
+  h1, h2, h3, h4{
+    font-family: $font-headers;
   }
   // display flex *********************
   .page-wrapper {

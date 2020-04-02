@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Gothic+A1|Uncial+Antiqua&display=swap");
 .main {
   display: grid;
   grid-template-columns: auto;
@@ -5,51 +6,37 @@
   margin: 1rem; }
 
 .main {
-  background-color: #dc9a76;
+  background-color: #E6D5BE;
   padding: 1rem; }
 
 #zen-explanation {
-  background: url(../images/man-sitting-on-concrete-block-near-waiting-shed-1855379.jpg);
+  background: url(../images/px-visnu-deva-WZBSRWPKBDw-unsplash.jpg);
   background-position: center;
   background-size: cover;
-  padding: 2rem; }
+  padding: 2rem;
+  opacity: .7; }
 
 #zen-explanation > h3 {
-  color: white;
-  font-size: 2.5rem;
-  font-weight: 900;
-  text-align: center;
-  border-bottom: 2px solid white; }
+  color: black;
+  text-align: center; }
 
 #zen-explanation > p {
   color: black;
-  font-weight: 900;
-  padding: 1rem;
-  font-size: 1.2rem;
+  padding: 20px;
+  border-radius: 25px;
   background-color: white;
-  opacity: .8; }
-
-#zen-participation {
-  background: url(../images/purple-daisy.jpg);
-  background-position: center;
-  background-size: cover;
-  padding: 2rem; }
+  opacity: .9; }
 
 #zen-participation > h3 {
-  color: white;
-  font-size: 2.5rem;
-  font-weight: 900;
-  text-align: center;
-  border-bottom: 2px solid white; }
+  color: black;
+  text-align: center; }
 
 #zen-participation > p {
-  font-size: 1.2rem;
-  font-weight: 900;
-  padding: 1rem;
-  text-align: left;
-  color: white;
-  background-color: #302A26;
-  opacity: .7; }
+  color: black;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: white;
+  opacity: .9; }
 
 #zen-benefits {
   position: relative;
@@ -62,9 +49,7 @@
 #zen-benefits > h3 {
   display: block;
   text-align: center;
-  color: white;
-  font-size: 4rem;
-  font-weight: 900; }
+  color: black; }
 
 #zen-benefits > p {
   display: none;
@@ -80,11 +65,8 @@
 #zen-benefits:hover > p {
   display: block;
   color: white;
-  font-weight: 900;
-  font-size: 1.2rem;
   background-color: #302A26;
   opacity: .6;
-  font-size: 1.3rem;
   margin-right: 2rem;
   margin-left: 0;
   padding: 1rem;
@@ -95,22 +77,19 @@
   background: url(../images/keytion-rNoHD6BoQbo-unsplash.jpg);
   background-position: center;
   background-size: cover;
-  padding: 2rem; }
+  padding: 2rem;
+  opacity: .7; }
 
 #zen-requirements > h3 {
-  color: white;
-  font-size: 2.5rem;
-  font-weight: 900;
-  text-align: center;
-  border-bottom: 2px solid white; }
+  color: black;
+  text-align: center; }
 
 #zen-requirements > p {
-  font-size: 1.2rem;
-  font-weight: 900;
-  padding: 1rem;
-  text-align: left;
+  color: black;
+  padding: 20px;
+  border-radius: 25px;
   background-color: white;
-  opacity: .5; }
+  opacity: .9; }
 
 #zen-requirements > p:nth-last-child(1) {
   margin-bottom: 24rem; }
@@ -131,9 +110,7 @@ footer {
 footer > a {
   color: white;
   text-align: center;
-  font-weight: 900;
   padding: 1rem;
-  font-size: 1.2rem;
   background-color: #302A26;
   opacity: .8; }
 
@@ -144,7 +121,7 @@ header {
   padding: 40px; }
 
 header h1 {
-  padding-top: 20px;
+  padding-top: 30px;
   padding-left: 20px; }
 
 header h2 {
@@ -163,20 +140,15 @@ div .summary, div .preamble {
   margin-right: 1rem;
   background-color: #C4EC76; }
 
-div .preamble {
-  padding-top: 20px; }
-
 div .summary {
   margin-top: 1rem;
   padding-bottom: 20px; }
 
 /* Media Query for medium + screens */
-@media only screen and (min-width: 32.5em) {
-  .intro h1 {
-    padding-top: 150px; } }
 .sidebar {
   background: #E6D5BE;
-  padding: 3em; }
+  padding: 3em;
+  margin-top: -50px; }
 
 .select, .archives, .resources {
   color: #78A83B;
@@ -208,9 +180,12 @@ div .design-selection ul li a, .design-archives ul li a, .zen-resources ul li a 
 
 body {
   background: white;
-  font-family: "Gothic A1";
+  font-family: "Gothic A1", sans-serif;
   margin: 0;
   padding: 0; }
+
+h1, h2, h3, h4 {
+  font-family: "Uncial Antiqua", cursive; }
 
 .page-wrapper {
   display: flex;
@@ -237,6 +212,6 @@ body {
 
   .sidebar {
     grid-row-start: 3;
-    grid-row-end: 8;
+    grid-row-end: 11;
     grid-column-start: 4;
     grid-column-end: 5; } }
