@@ -155,7 +155,7 @@ footer > a {
 }
 
 header {
-  background: url(../images/aaron-burson-withgrass-2.png);
+  background: url(../images/aaron-burson-withgrass.png);
   text-shadow: 3px 3px 10px #000000;
   background-position: center;
   background-size: cover;
@@ -180,7 +180,6 @@ header h2 {
 .intro div {
   background-color: white;
   padding: 10px;
-  opacity: .8;
 }
 
 div .summary, div .preamble {
