@@ -5,7 +5,10 @@ $color-3: #E6D5BE; // light gray - rgb(230, 213, 190)
 $color-4: #302A26; // dark gray - rgb(48, 42, 38)
 $color-5: #C4EC76; // light green - rgb(196, 236, 118)
 
-
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
 .sidebar {
     background: $color-3;
     padding: 3em;

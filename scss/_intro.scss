@@ -1,4 +1,7 @@
-
+.intro {
+    display: flex;
+    flex-direction: column;
+}
 header{
     background: url(../images/aaron-burson-withgrass.png);
     background-position: center;

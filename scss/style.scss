@@ -17,7 +17,6 @@ body {
   font-family: $font-body;
 	margin: 0; 
   padding: 0;
-
   }
   p {
     font-family: $font-body;
@@ -37,7 +36,6 @@ body {
 display: grid;
 grid-template-rows: repeat(10, 10%);
 grid-template-columns: repeat(4, 1fr);
-// gap: 1rem;
 }
 
 .intro {
