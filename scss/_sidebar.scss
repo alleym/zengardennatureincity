@@ -42,9 +42,8 @@ div .design-selection, .design-archives, .zen-resources {
         
     }
 }  
-a:hover {
-color: white;
-}
+
+
 
 .design-name {
     color: $color-1;
@@ -52,6 +51,10 @@ color: white;
     font-size: 1.1em;
     line-height: 2em;
     font-weight: bold;
+    
+    .design-name a:hover {
+        color:white;
+    }
 
 }  
 .designer-name {

@@ -232,16 +232,16 @@ div .design-selection ul li a, .design-archives ul li a, .zen-resources ul li a 
   text-decoration: none;
 }
 
-a:hover {
-  color: white;
-}
-
 .design-name {
   color: #78A83B;
   text-transform: uppercase;
   font-size: 1.1em;
   line-height: 2em;
   font-weight: bold;
+}
+
+.design-name .design-name a:hover {
+  color: white;
 }
 
 .designer-name {
