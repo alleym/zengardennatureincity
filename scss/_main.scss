@@ -1,67 +1,64 @@
 // VARIABLES
-// $color-1: #78A83B; // green - rgb(120, 168, 59)
-// $color-2: #DC9A76; // peach - rgb(220, 154, 118)
-// $color-3: #E6D5BE; // light gray - rgb(230, 213, 190)
-// $color-4: #302A26; // dark gray - rgb(48, 42, 38)
-// $color-5: #C4EC76; // light green - rgb(196, 236, 118)
+ $color-1: #78A83B; // green - rgb(120, 168, 59)
+ $color-2: #DC9A76; // peach - rgb(220, 154, 118)
+ $color-3: #E6D5BE; // light gray - rgb(230, 213, 190)
+ $color-4: #302A26; // dark gray - rgb(48, 42, 38)
+ $color-5: #C4EC76; // light green - rgb(196, 236, 118)
 
 .main {
+<<<<<<< HEAD
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1rem;
+  margin: 1rem;
+=======
     display: grid;
     grid-template-columns: auto;
     gap: 1rem;
     margin: 1rem;
+>>>>>>> 74a18847bdf752fb1d9102e5734b53ccaf947206
   }
 .main {
-    background-color: rgb(220,154,118);
+    background-color: $color-3;
     padding: 1rem;
 }
 // Explanation
 #zen-explanation {
-    background: url(../images/man-sitting-on-concrete-block-w800-h533-lowres.jpg);
+    background: url(../images/px-visnu-deva-WZBSRWPKBDw-unsplash.jpg);
     background-position: center;
     background-size: cover;
     padding: 2rem;
+    opacity: .7;
 }
 #zen-explanation > h3 {
-    color: white;
-    font-size: 2.5rem;
-    font-weight: 900;
-    text-align: left;
-    border-bottom: 2px solid white;
+    color: black;
+    text-align: center;
 }
 #zen-explanation > p {
     color: black;
-    font-weight: 900;
-    padding: 1rem;
-    font-size: 1.3rem;
+    padding: 20px;
+    border-radius: 25px;
     background-color: white;
-    opacity: .7;
-    margin: 0;
+    opacity: .9;
 } 
 
 // Participation
-#zen-participation {
-    background: url(../images/purple-daisy-w800-h600-lowres.jpg);
-    background-position: center;
-    background-size: cover;
-    padding: 2rem;
-}
+//#zen-participation {
+ //   background: url(../images/purple-daisy.jpg);
+//    background-position: center;
+//    background-size: cover;
+ //   padding: 2rem;
+//}
 #zen-participation > h3 {
-    color: white;
-    font-size: 2.5rem;
-    font-weight: 900;
-    text-align: left;
-    border-bottom: 2px solid white;
+    color: black;
+    text-align: center;
 }
 #zen-participation > p {
-    font-size: 1.3rem;
-    font-weight: 900;
-    padding: 1rem;
-    text-align: left;
     color: black;
+    padding: 20px;
+    border-radius: 25px;
     background-color: white;
-    opacity: .7;
-    margin: 0;
+    opacity: .9;
 }
 
 // benefits
@@ -75,11 +72,8 @@
 }
 #zen-benefits > h3 {
     display: block;
-    text-align: left;
-    color: white;
-    font-size: 2.5rem;
-    font-weight: 900;
-    border-bottom: 2px solid white;
+    text-align: center;
+    color: black;
 }
 #zen-benefits > p {
     display: none;
@@ -94,11 +88,9 @@
   }
 #zen-benefits:hover > p {
     display: block;
-    color: black;
-    font-weight: 900;
-    background-color: white;
-    opacity: .7;
-    font-size: 1.3rem;
+    color: white;
+    background-color: #302A26;
+    opacity: .6;
     margin-right: 2rem;
     margin-left: 0;
     padding: 1rem;
@@ -112,23 +104,18 @@
     background-position: center;
     background-size: cover;
     padding: 2rem;
+    opacity: .7;
 }
 #zen-requirements > h3 {
-    color: white;
-    font-size: 2.5rem;
-    font-weight: 900;
-    text-align: left;
-    border-bottom: 2px solid white;
+    color: black;
+    text-align: center;
 }
 #zen-requirements > p {
-    font-size: 1.3rem;
-    font-weight: 900;
-    padding: 1rem;
-    text-align: left;
     color: black;
+    padding: 20px;
+    border-radius: 25px;
     background-color: white;
-    opacity: .7;
-    margin: 0;
+    opacity: .9;
 }
 #zen-requirements > p:nth-last-child(1) {
 margin-bottom: 24rem;
@@ -150,9 +137,7 @@ footer {
 footer > a {
     color: white;
     text-align: center;
-    font-weight: 900;
     padding: 1rem;
-    font-size: 1.2rem;
     background-color: #302A26;
     opacity: .8;
 } 

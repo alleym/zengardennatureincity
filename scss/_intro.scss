@@ -9,7 +9,7 @@ header{
     padding: 240px;
 }
 header h1{
- padding-top: 20px;
+padding-top: 30px;
  padding-left: 20px;
 }
 header h2{
@@ -28,9 +28,7 @@ div .summary, div .preamble{
     margin-right: 1rem;
     background-color: #C4EC76;
 }
-div .preamble{
-    padding-top: 20px;
-}
+
 div .summary{
     margin-top: 1rem;
     padding-bottom: 20px;
@@ -44,7 +42,5 @@ div .summary{
 
 /* Media Query for medium + screens */
 @media only screen and (min-width: 32.5em) {
-    .intro h1{
-        padding-top: 150px;
-    }
+    
 }
