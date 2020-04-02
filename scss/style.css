@@ -169,6 +169,16 @@ footer > a {
   opacity: .8;
 }
 
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 header {
   background: url(../images/aaron-burson-withgrass.png);
   background-position: center;
@@ -218,6 +228,16 @@ div .summary {
 }
 
 .sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sidebar {
   background: #E6D5BE;
   padding: 3em;
   margin-top: -50px;
@@ -232,14 +252,15 @@ div .summary {
 
 div .design-selection nav ul li, .design-archives nav ul li, .zen-resources nav ul li {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  text-decoration: none;
   margin: 0 0 0 -1em;
+  color: #302A26;
+  line-height: .3;
+  padding: 10px;
 }
 
 div .design-selection ul li a, .design-archives ul li a, .zen-resources ul li a {
   text-decoration: none;
-  color: #302A26;
 }
 
 .design-name {
@@ -251,6 +272,7 @@ div .design-selection ul li a, .design-archives ul li a, .zen-resources ul li a 
 }
 
 .designer-name {
+  color: #302A26;
   font-style: italic;
   line-height: 1em;
 }
