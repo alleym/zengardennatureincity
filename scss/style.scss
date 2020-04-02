@@ -17,9 +17,13 @@ body {
   font-family: $font-body;
 	margin: 0; 
   padding: 0;
+<<<<<<< HEAD
   }
   h1, h2, h3, h4{
     font-family: $font-headers;
+  
+=======
+>>>>>>> 74a18847bdf752fb1d9102e5734b53ccaf947206
   }
   p {
     font-family: $font-body;
@@ -39,7 +43,6 @@ body {
 display: grid;
 grid-template-rows: repeat(10, 10%);
 grid-template-columns: repeat(4, 1fr);
-// gap: 1rem;
 }
 
 .intro {

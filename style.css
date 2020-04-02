@@ -10,9 +10,9 @@ Error: Invalid CSS after "<<<<<<< HEAD": expected "{", was "}"
 21:   }
 22:   h1, h2, h3, h4{
 23:     font-family: $font-headers;
-24: =======
-25: >>>>>>> 74a18847bdf752fb1d9102e5734b53ccaf947206
-26:   }
+24:   
+25: =======
+26: >>>>>>> 74a18847bdf752fb1d9102e5734b53ccaf947206
 
 Backtrace:
 /Users/autryjohnson/Desktop/ZenGarden/zengardennatureincity/scss/style.scss:21
@@ -42,4 +42,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"<<<<<<< HEAD\": expected \"{\", was \"}\"\A         on line 21 of /Users/autryjohnson/Desktop/ZenGarden/zengardennatureincity/scss/style.scss\A \A 16:   background: white;\A 17:   font-family: $font-body;\A 18: 	margin: 0; \A 19:   padding: 0;\A 20: <<<<<<< HEAD\A 21:   }\A 22:   h1, h2, h3, h4{\A 23:     font-family: $font-headers;\A 24: =======\A 25: >>>>>>> 74a18847bdf752fb1d9102e5734b53ccaf947206\A 26:   }"; }
+  content: "Error: Invalid CSS after \"<<<<<<< HEAD\": expected \"{\", was \"}\"\A         on line 21 of /Users/autryjohnson/Desktop/ZenGarden/zengardennatureincity/scss/style.scss\A \A 16:   background: white;\A 17:   font-family: $font-body;\A 18: 	margin: 0; \A 19:   padding: 0;\A 20: <<<<<<< HEAD\A 21:   }\A 22:   h1, h2, h3, h4{\A 23:     font-family: $font-headers;\A 24:   \A 25: =======\A 26: >>>>>>> 74a18847bdf752fb1d9102e5734b53ccaf947206"; }
