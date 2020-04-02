@@ -29,7 +29,6 @@
 #zen-explanation > p {
   color: black;
   padding: 20px;
-  border-radius: 25px;
   background-color: white;
   opacity: .9;
 }
@@ -49,7 +48,6 @@
 #zen-participation > p {
   color: black;
   padding: 20px;
-  border-radius: 25px;
   background-color: white;
   opacity: .9;
 }
@@ -112,7 +110,6 @@
 #zen-requirements > p {
   color: black;
   padding: 20px;
-  border-radius: 25px;
   background-color: white;
   opacity: .9;
 }
@@ -293,7 +290,7 @@ h1, h2, h3 {
 }
 
 /* Media Query for medium + screens */
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 45em) {
   .page-wrapper {
     display: -ms-grid;
     display: grid;
