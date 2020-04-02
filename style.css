@@ -149,7 +149,7 @@ header {
   background: url(../images/aaron-burson-withgrass.png);
   background-position: center;
   background-size: cover;
-  padding: 40px; }
+  padding: 240px; }
 
 header h1 {
   padding-top: 20px;
@@ -256,13 +256,13 @@ h1, h2, h3 {
     grid-column-end: 5; }
 
   .main {
-    grid-row-start: 3;
+    grid-row-start: 4;
     grid-row-end: 11;
     grid-column-start: 1;
     grid-column-end: 4; }
 
   .sidebar {
-    grid-row-start: 3;
+    grid-row-start: 4;
     grid-row-end: 11;
     grid-column-start: 4;
     grid-column-end: 5; } }

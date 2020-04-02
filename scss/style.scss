@@ -46,14 +46,14 @@ grid-template-columns: repeat(4, 1fr);
 }
 
 .main {
-  grid-row-start: 3;
+  grid-row-start: 4;
   grid-row-end: 11;
   grid-column-start: 1;
   grid-column-end: 4;
   }
 
 .sidebar {
-  grid-row-start: 3;
+  grid-row-start: 4;
   grid-row-end: 11;
   grid-column-start: 4;
   grid-column-end: 5;
