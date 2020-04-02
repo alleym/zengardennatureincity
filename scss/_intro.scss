@@ -1,4 +1,7 @@
-
+.intro {
+    display: flex;
+    flex-direction: column;
+}
 header{
     background: url(../images/aaron-burson-yihqdpsk9ji-unsplash-with-grass.jpg);
     background-position: center;
