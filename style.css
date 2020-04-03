@@ -271,7 +271,6 @@ div .summary {
     margin-left: -2em; }
   .zen-resources li a {
     text-decoration: none;
-    text-transform: uppercase;
     color: white; }
   .zen-resources li a:hover {
     color: white; }
