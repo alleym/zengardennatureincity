@@ -139,17 +139,6 @@ footer > a:nth-child(2):hover {
   border-left: 40px solid transparent;
   border-right: 40px solid transparent;
   border-bottom: 80px solid blue;
-  transition: 1s;
-  transform: scale(1.5);
-  z-index: 2; }
-
-footer > a:nth-child(3):hover {
-  background-color: transparent;
-  color: black;
-  width: 80px;
-  height: 80px;
-  background-color: green;
-  border-radius: 5px;
   animation-name: spin;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
@@ -160,6 +149,28 @@ footer > a:nth-child(3):hover {
     transform: rotate(0deg); }
   to {
     transform: rotate(360deg); } }
+footer > a:nth-child(3):hover {
+  background-color: transparent;
+  color: black;
+  width: 80px;
+  height: 40px;
+  background-color: green;
+  border-radius: 50px / 25px;
+  transition: 1s;
+  transform: scale(1.6);
+  z-index: 2;
+  position: relative;
+  animation: pulse 1s ease infinite alternate; }
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: green; }
+  25% {
+    background-color: blue; }
+  50% {
+    background-color: yellow; }
+  75% {
+    background-color: red; } }
 footer > a:nth-child(4):hover {
   background-color: transparent;
   color: black;
@@ -169,10 +180,10 @@ footer > a:nth-child(4):hover {
   height: 0;
   width: 66px;
   position: relative;
-  animation: myfirst 2s infinite;
+  animation: movedown 2s infinite;
   animation-direction: alternate-reverse; }
 
-@keyframes myfirst {
+@keyframes movedown {
   0% {
     left: 0px;
     top: 0px; }
@@ -187,19 +198,31 @@ footer > a:nth-child(5):hover {
   height: 80px;
   width: 80px;
   background-color: red;
-  animation: pulse 3s ease infinite alternate,  nudge 5s linear infinite alternate;
-  border-radius: 100%; }
+  border-radius: 100%;
+  animation: pulse 3s ease infinite alternate,  nudge 3s linear infinite alternate; }
 
 @keyframes pulse {
-  0%, 100% {
+  0% {
     background-color: red; }
+  25% {
+    background-color: blue; }
   50% {
-    background-color: purple; } }
+    background-color: purple; }
+  75% {
+    background-color: yellow; }
+  100% {
+    background-color: red; } }
 @keyframes nudge {
-  0%, 100% {
+  0% {
     transform: translate(0, 0); }
+  25% {
+    transform: translate(75px, 0); }
   50% {
-    transform: translate(150px, 0); } }
+    transform: translate(150px, 0); }
+  75% {
+    transform: translate(75px, 0); }
+  100% {
+    transform: translate(0, 0); } }
 .intro {
   display: flex;
   flex-direction: column; }
