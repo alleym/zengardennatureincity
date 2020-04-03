@@ -183,7 +183,7 @@ footer > a:nth-child(5):hover {
   flex-direction: column; }
 
 header {
-  background: url(../images/aaron-burson-withgrass.png);
+  background: url(../images/aaron-burson-withgrass.jpg);
   text-shadow: 3px 3px 10px #000000;
   background-position: center;
   background-size: cover;
@@ -348,3 +348,5 @@ p {
     grid-row-end: 11;
     grid-column-start: 4;
     grid-column-end: 5; } }
+
+/*# sourceMappingURL=style.css.map */
