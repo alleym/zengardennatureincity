@@ -20,7 +20,7 @@ $text-upper: UPPERCASE;
 // SIDE BAR TITLES
 .select {
     color: $color-1;
-    text-transform: $upper;
+    text-transform: $text-upper;
     font-size: 1.3em;
     text-shadow: 1px 1px 4px $color-6;
     text-align: center;
@@ -28,7 +28,7 @@ $text-upper: UPPERCASE;
     }
 .resources {
     color: $color-6;
-    text-transform: $upper;
+    text-transform: $text-upper;
     font-size: 1.3em;
     text-align: center;
     padding: .5em;
@@ -37,7 +37,7 @@ $text-upper: UPPERCASE;
 }
 .archives {
     color: $color-6;
-    text-transform: $upper;
+    text-transform: $text-upper;
     font-size: 1.3em;
     text-shadow: 1px 1px $color-2;
     text-align: center;
@@ -108,7 +108,7 @@ $text-upper: UPPERCASE;
 
 .design-name {
     color: $color-1;
-    text-transform: $upper;
+    text-transform: $text-upper;
     font-size: 1.1em;
     line-height: 2em;
     font-weight: bold;

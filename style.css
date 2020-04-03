@@ -1,80 +1,344 @@
-/*
-Error: Undefined variable: "$upper".
-        on line 23 of C:/Users/sheca/OneDrive/Documents/github/zengardennatureincity/scss/_sidebar.scss
-        from line 3 of C:\Users\sheca\OneDrive\Documents\github\zengardennatureincity\scss\style.scss
+@import url("https://fonts.googleapis.com/css?family=Gothic+A1|Uncial+Antiqua&display=swap");
+.main {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1rem;
+  margin: 1rem; }
 
-18: 	margin: 0; 
-19:   padding: 0;
-20:   }
-21:   h1, h2, h3, h4{
-22:     font-family: $font-headers;
-23:   
-24:   }
-25:   p {
-26:     font-family: $font-body;
-27:   }
-28:   h1, h2, h3 {
+.main {
+  background-color: #DC9A76;
+  padding: 1rem; }
 
-Backtrace:
-C:/Users/sheca/OneDrive/Documents/github/zengardennatureincity/scss/_sidebar.scss:23
-C:\Users\sheca\OneDrive\Documents\github\zengardennatureincity\scss\style.scss:3
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$upper\".\A         on line 23 of C:/Users/sheca/OneDrive/Documents/github/zengardennatureincity/scss/_sidebar.scss\A         from line 3 of C:\Users\sheca\OneDrive\Documents\github\zengardennatureincity\scss\style.scss\A \A 18: 	margin: 0; \A 19:   padding: 0;\A 20:   }\A 21:   h1, h2, h3, h4{\A 22:     font-family: $font-headers;\A 23:   \A 24:   }\A 25:   p {\A 26:     font-family: $font-body;\A 27:   }\A 28:   h1, h2, h3 {"; }
+#zen-explanation {
+  background: url(../images/man-sitting-on-concrete-block-w800-h533-lowres.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 2rem; }
+
+#zen-explanation > h3 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: left;
+  border-bottom: 2px solid white; }
+
+#zen-explanation > p {
+  color: black;
+  font-weight: 900;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: white;
+  opacity: .8;
+  margin: 0; }
+
+#zen-participation {
+  background: url(../images/purple-daisy-w800-h600-lowres.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 2rem; }
+
+#zen-participation > h3 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: left;
+  border-bottom: 2px solid white; }
+
+#zen-participation > p {
+  color: black;
+  font-weight: 900;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: white;
+  opacity: .8;
+  margin: 0; }
+
+#zen-benefits {
+  background: url(../images/steffi-pereira-DsDaET_OlCw-unsplash-w800-h533-lowres.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 2rem; }
+
+#zen-benefits > h3 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: left;
+  border-bottom: 2px solid white; }
+
+#zen-benefits > p {
+  color: black;
+  font-weight: 900;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: white;
+  opacity: .8;
+  margin: 0; }
+
+#zen-requirements {
+  background: url(../images/keytion-rNoHD6BoQbo-unsplash-w800-h800-lowres.png);
+  background-position: center;
+  background-size: cover;
+  padding: 2rem; }
+
+#zen-requirements > h3 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: left;
+  border-bottom: 2px solid white; }
+
+#zen-requirements > p {
+  color: black;
+  font-weight: 900;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: white;
+  opacity: .8;
+  margin: 0; }
+
+#zen-requirements > p:nth-last-child(1) {
+  margin-bottom: 24rem; }
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(2rem, 60px));
+  gap: 4rem;
+  height: 300px;
+  justify-content: center;
+  background: url(../images/visnu-deva-WZBSRWPKBDw-unsplash-w800-h400-lowres-cropped.jpg);
+  background-position-y: center;
+  background-size: cover;
+  padding: 2rem; }
+
+footer > a {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-weight: 900;
+  background-color: #302A26;
+  opacity: .8;
+  height: 80px;
+  width: 80px; }
+
+footer > a:nth-child(1) {
+  clip-path: circle(75%);
+  transition: clip-path 1s; }
+
+footer > a:nth-child(1):hover {
+  color: black;
+  clip-path: circle(25%);
+  background: orange; }
+
+footer > a:nth-child(2):hover {
+  background-color: transparent;
+  color: black;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 80px solid blue; }
+
+footer > a:nth-child(3) {
+  clip-path: circle(75%);
+  transition: clip-path 1s; }
+
+footer > a:nth-child(3):hover {
+  color: black;
+  clip-path: circle(25%);
+  background: red; }
+
+footer > a:nth-child(4):hover {
+  background-color: transparent;
+  color: black;
+  border-bottom: 50px solid purple;
+  border-left: 12.5px solid transparent;
+  border-right: 12.5px solid transparent;
+  height: 0;
+  width: 50px; }
+
+footer > a:nth-child(5) {
+  clip-path: circle(75%);
+  transition: clip-path 1s; }
+
+footer > a:nth-child(5):hover {
+  color: black;
+  clip-path: circle(25%);
+  background: green; }
+
+.intro {
+  display: flex;
+  flex-direction: column; }
+
+header {
+  background: url(../images/aaron-burson-withgrass.png);
+  text-shadow: 3px 3px 10px #000000;
+  background-position: center;
+  background-size: cover;
+  padding: 40px; }
+
+header h1 {
+  padding-top: 30px;
+  padding-left: 20px;
+  color: white; }
+
+header h2 {
+  padding-left: 20px;
+  color: white; }
+
+.intro h1 {
+  font-size: 2.5rem; }
+
+.intro div {
+  background-color: white;
+  padding: 10px; }
+
+div .summary, div .preamble {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: #C4EC76; }
+
+div .summary {
+  margin-top: 1rem;
+  padding-bottom: 20px; }
+
+/* Media Query for medium + screens */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background: #E6D5BE;
+  z-index: -100;
+  margin-right: 16px; }
+
+.select {
+  color: #78A83B;
+  text-transform: UPPERCASE;
+  font-size: 1.3em;
+  text-shadow: 1px 1px 4px #ffffff;
+  text-align: center;
+  padding: 10px; }
+
+.resources {
+  color: #ffffff;
+  text-transform: UPPERCASE;
+  font-size: 1.3em;
+  text-align: center;
+  padding: .5em;
+  margin: 10px; }
+
+.archives {
+  color: #ffffff;
+  text-transform: UPPERCASE;
+  font-size: 1.3em;
+  text-shadow: 1px 1px #DC9A76;
+  text-align: center; }
+
+.design-selection nav ul li {
+  color: #302A26;
+  list-style-type: none;
+  margin: 0 0 0 -2em;
+  line-height: .3;
+  padding: 10px; }
+.design-selection nav ul li a {
+  text-decoration: none; }
+.design-selection nav ul li a:hover {
+  color: #ffffff; }
+
+.design-archives {
+  background: #DC9A76;
+  margin: 8px;
+  text-align: center;
+  box-shadow: 1px 1px 4px #ffffff;
+  border: solid 1px #ffffff; }
+  .design-archives ul {
+    list-style-type: none;
+    padding: 10px; }
+  .design-archives li a {
+    color: #ffffff;
+    text-decoration: none; }
+  .design-archives li a:hover {
+    color: #ffffff; }
+
+.zen-resources {
+  background: #78A83B;
+  margin: 8px;
+  border: 1px solid #ffffff;
+  box-shadow: 1px 1px 4px #ffffff;
+  border-radius: 3px; }
+  .zen-resources ul {
+    list-style-type: none;
+    text-align: center;
+    margin-left: -2em; }
+  .zen-resources li a {
+    text-decoration: none;
+    color: #ffffff; }
+  .zen-resources li a:hover {
+    color: #ffffff; }
+
+.design-name {
+  color: #78A83B;
+  text-transform: UPPERCASE;
+  font-size: 1.1em;
+  line-height: 2em;
+  font-weight: bold; }
+  .design-name .design-name a:hover {
+    color: #ffffff; }
+
+.designer-name {
+  color: #302A26;
+  font-style: italic;
+  line-height: 1em; }
+
+.designer-name::after {
+  line-height: 80%; }
+
+.design-name::after {
+  content: '\A';
+  white-space: pre; }
+
+body {
+  background: white;
+  font-family: "Gothic A1", sans-serif;
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4 {
+  font-family: "Uncial Antiqua", cursive; }
+
+p {
+  font-family: "Gothic A1", sans-serif; }
+
+h1, h2, h3 {
+  font-family: "Uncial Antiqua", cursive; }
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column; }
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 45em) {
+  .page-wrapper {
+    display: grid;
+    grid-template-rows: repeat(10, 10%);
+    grid-template-columns: repeat(4, 1fr); }
+
+  .intro {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 5; }
+
+  .main {
+    grid-row-start: 3;
+    grid-row-end: 11;
+    grid-column-start: 1;
+    grid-column-end: 4; }
+
+  .sidebar {
+    grid-row-start: 3;
+    grid-row-end: 11;
+    grid-column-start: 4;
+    grid-column-end: 5; } }
+
+/*# sourceMappingURL=style.css.map */
