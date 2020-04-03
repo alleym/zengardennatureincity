@@ -104,8 +104,8 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
   grid-template-rows: repeat(auto-fill, minmax(2rem, 60px));
-  gap: 2rem;
-  height: 200px;
+  gap: 4rem;
+  height: 300px;
   justify-content: center;
   background: url(../images/visnu-deva-WZBSRWPKBDw-unsplash-w800-h400-lowres-cropped.jpg);
   background-position-y: center;
@@ -117,49 +117,53 @@ footer > a {
   text-align: center;
   justify-content: center;
   font-weight: 900;
-  padding: 1rem;
   background-color: #302A26;
   opacity: .8;
-  height: 50px;
-  width: 50px; }
+  height: 80px;
+  width: 80px; }
 
 footer > a:nth-child(1) {
   clip-path: circle(75%);
   transition: clip-path 1s; }
 
 footer > a:nth-child(1):hover {
+  color: black;
   clip-path: circle(25%);
   background: orange; }
 
-footer > a:nth-child(2) {
-  clip-path: circle(75%);
-  transition: clip-path 1s; }
-
 footer > a:nth-child(2):hover {
-  clip-path: circle(25%);
-  background: blue; }
+  background-color: transparent;
+  color: black;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 80px solid blue; }
 
 footer > a:nth-child(3) {
   clip-path: circle(75%);
   transition: clip-path 1s; }
 
 footer > a:nth-child(3):hover {
+  color: black;
   clip-path: circle(25%);
   background: red; }
 
-footer > a:nth-child(4) {
-  clip-path: circle(75%);
-  transition: clip-path 1s; }
-
 footer > a:nth-child(4):hover {
-  clip-path: circle(25%);
-  background: purple; }
+  background-color: transparent;
+  color: black;
+  border-bottom: 50px solid purple;
+  border-left: 12.5px solid transparent;
+  border-right: 12.5px solid transparent;
+  height: 0;
+  width: 50px; }
 
 footer > a:nth-child(5) {
   clip-path: circle(75%);
   transition: clip-path 1s; }
 
 footer > a:nth-child(5):hover {
+  color: black;
   clip-path: circle(25%);
   background: green; }
 
