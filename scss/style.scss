@@ -20,14 +20,11 @@ body {
   }
   h1, h2, h3, h4{
     font-family: $font-headers;
-  
   }
   p {
     font-family: $font-body;
   }
-  h1, h2, h3 {
-    font-family: $font-headers;
-  }
+
   // display flex *********************
   .page-wrapper {
     display: flex;
