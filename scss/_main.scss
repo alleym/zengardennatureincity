@@ -138,6 +138,7 @@ footer > a {
     height: 80px;
     width: 80px;
 } 
+
 // CSS Shapes Animations
 // Shape 1 *****************************
 footer > a:nth-child(1) {
@@ -158,52 +159,73 @@ footer > a:nth-child(2):hover {
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
     border-bottom: 80px solid blue;
+    transition: 1s;
+    transform:  scale(1.5);
+    z-index: 2;
 }
 // Shape 3
 footer > a:nth-child(3):hover {
     background-color: transparent;
     color: black;
-   
-        width: 50px;
-        height: 50px;
-        background-color: red;
-        animation-name: spin;
-        animation-duration: 5000ms;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear; 
-        /* transform: rotate(3deg); */
-         /* transform: rotate(0.3rad);/ */
-         /* transform: rotate(3grad); */ 
-         /* transform: rotate(.03turn);  */
-      }
-      
-      @keyframes spin {
-          from {
-              transform:rotate(0deg);
-          }
-          to {
-              transform:rotate(360deg);
-          }
-      }
-// } 
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border-radius: 5px;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    }
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
 // Shape 4
 footer > a:nth-child(4):hover {
     background-color: transparent;
     color: black;
-    border-bottom: 50px solid purple;
-    border-left: 12.5px solid transparent;
-    border-right: 12.5px solid transparent;
+    border-bottom: 66px solid purple;
+    border-left: 16.5px solid transparent;
+    border-right: 16.5px solid transparent;
     height: 0;
-    width: 50px;
+    width: 66px;
+    position: relative;
+    animation: myfirst 2s infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes myfirst {
+    0%   {left: 0px; top: 0px;}
+    50%  {left: 0px; top: 30px;}
+    100% {left: 0px; top: 0px;}
 }
 // Shape 5
-footer > a:nth-child(5) {
-    clip-path: circle(75%);
-    transition: clip-path 1s;
-}
 footer > a:nth-child(5):hover {
     color: black;
-    clip-path: circle(25%);
-    background: green;
-} 
-  
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    animation: 
+      pulse 3s ease infinite alternate, 
+      nudge 5s linear infinite alternate;
+    border-radius: 100%;
+}
+@keyframes pulse {
+    0%, 100% {
+      background-color: red;
+    }
+    50% {
+      background-color: purple;
+    }
+}
+@keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(150px, 0);
+    }
+}  
