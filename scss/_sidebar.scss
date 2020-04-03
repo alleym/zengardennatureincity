@@ -51,13 +51,13 @@ div .design-selection, .design-archives, .zen-resources {
     font-size: 1.1em;
     line-height: 2em;
     font-weight: bold;
-    
+
     .design-name a:hover {
         color:white;
     }
 
 }  
-.designer-name {
+nav ul li a .designer-name  {
     color: $color-4;
     font-style: italic;
     line-height: 1em;

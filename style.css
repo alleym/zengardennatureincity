@@ -189,7 +189,7 @@ div .design-selection ul li a, .design-archives ul li a, .zen-resources ul li a 
   .design-name .design-name a:hover {
     color: white; }
 
-.designer-name {
+nav ul li a .designer-name {
   color: #302A26;
   font-style: italic;
   line-height: 1em; }
