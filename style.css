@@ -202,30 +202,59 @@ div .summary {
 /* Media Query for medium + screens */
 .sidebar {
   display: flex;
-  flex-direction: column; }
-
-.sidebar {
+  flex-direction: column;
   background: #E6D5BE;
   padding: 3em;
   margin-top: -50px;
   z-index: -100;
   margin-right: 15px; }
 
-.select, .archives, .resources {
+.select, .archives {
   color: #78A83B;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 1em; }
 
-div .design-selection nav ul li, .design-archives nav ul li, .zen-resources nav ul li {
-  list-style-type: none;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-  margin: 0 0 0 -1em;
+.resources {
+  color: white;
+  text-transform: uppercase;
+  font-size: 2em;
+  text-align: center;
+  padding: 1em; }
+
+.design-selection nav ul li {
   color: #302A26;
+  list-style-type: none;
+  margin: 0 0 0 -2em;
   line-height: .3;
   padding: 10px; }
-div .design-selection ul li a, .design-archives ul li a, .zen-resources ul li a {
+.design-selection nav ul li a {
   text-decoration: none; }
+.design-selection nav ul li a:hover {
+  color: white; }
+
+.design-archives nav ul {
+  list-style-type: none;
+  padding: 10px; }
+  .design-archives nav ul li a {
+    color: #302A26;
+    text-decoration: none; }
+  .design-archives nav ul li a:hover {
+    color: white; }
+
+.zen-resources {
+  background: #78A83B;
+  box-shadow: 3px 3px #DC9A76; }
+  .zen-resources ul li {
+    list-style-type: none;
+    text-align: center;
+    line-height: .3;
+    padding: 14px; }
+  .zen-resources ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white; }
+  .zen-resources li a:hover {
+    color: white; }
 
 .design-name {
   color: #78A83B;
@@ -236,7 +265,7 @@ div .design-selection ul li a, .design-archives ul li a, .zen-resources ul li a 
   .design-name .design-name a:hover {
     color: white; }
 
-nav ul li a .designer-name {
+.designer-name {
   color: #302A26;
   font-style: italic;
   line-height: 1em; }

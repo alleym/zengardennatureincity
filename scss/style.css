@@ -9,7 +9,7 @@
 }
 
 .main {
-  background-color: #E6D5BE;
+  background-color: #DC9A76;
   padding: 1rem;
 }
 
@@ -18,19 +18,24 @@
   background-position: center;
   background-size: cover;
   padding: 2rem;
-  opacity: .7;
 }
 
 #zen-explanation > h3 {
-  color: black;
-  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: left;
+  border-bottom: 2px solid white;
 }
 
 #zen-explanation > p {
   color: black;
-  padding: 20px;
+  font-weight: 900;
+  padding: 1rem;
+  font-size: 1.2rem;
   background-color: white;
-  opacity: .9;
+  opacity: .8;
+  margin: 0;
 }
 
 #zen-participation {
@@ -41,57 +46,46 @@
 }
 
 #zen-participation > h3 {
-  color: black;
-  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: left;
+  border-bottom: 2px solid white;
 }
 
 #zen-participation > p {
   color: black;
-  padding: 20px;
+  font-weight: 900;
+  padding: 1rem;
+  font-size: 1.2rem;
   background-color: white;
-  opacity: .9;
+  opacity: .8;
+  margin: 0;
 }
 
 #zen-benefits {
-  position: relative;
   background: url(../images/steffi-pereira-DsDaET_OlCw-unsplash-w800-h533-lowres.jpg);
   background-position: center;
   background-size: cover;
   padding: 2rem;
-  height: 300px;
 }
 
 #zen-benefits > h3 {
-  display: block;
-  text-align: center;
-  color: black;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: left;
+  border-bottom: 2px solid white;
 }
 
 #zen-benefits > p {
-  display: none;
+  color: black;
+  font-weight: 900;
   padding: 1rem;
-  position: absolute;
-  bottom: 0;
-  margin-left: -100%;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
-}
-
-#zen-benefits:hover > h3 {
-  display: none;
-}
-
-#zen-benefits:hover > p {
-  display: block;
-  color: white;
-  background-color: #302A26;
-  opacity: .6;
-  margin-right: 2rem;
-  margin-left: 0;
-  padding: 1rem;
-  cursor: pointer;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
+  font-size: 1.2rem;
+  background-color: white;
+  opacity: .8;
+  margin: 0;
 }
 
 #zen-requirements {
@@ -99,19 +93,24 @@
   background-position: center;
   background-size: cover;
   padding: 2rem;
-  opacity: .7;
 }
 
 #zen-requirements > h3 {
-  color: black;
-  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: left;
+  border-bottom: 2px solid white;
 }
 
 #zen-requirements > p {
   color: black;
-  padding: 20px;
+  font-weight: 900;
+  padding: 1rem;
+  font-size: 1.2rem;
   background-color: white;
-  opacity: .9;
+  opacity: .8;
+  margin: 0;
 }
 
 #zen-requirements > p:nth-last-child(1) {
@@ -125,12 +124,12 @@ footer {
       grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
   -ms-grid-rows: (minmax(2rem, 60px))[auto-fill];
       grid-template-rows: repeat(auto-fill, minmax(2rem, 60px));
-  gap: 1rem;
+  gap: 2rem;
   height: 200px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: url(../images/px-visnu-deva-WZBSRWPKBDw-unsplash-w800-h400-lowres.jpg);
+  background: url(../images/visnu-deva-WZBSRWPKBDw-unsplash-w800-h400-lowres-cropped.jpg);
   background-position-y: center;
   background-size: cover;
   padding: 2rem;
@@ -139,9 +138,90 @@ footer {
 footer > a {
   color: white;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 900;
   padding: 1rem;
   background-color: #302A26;
   opacity: .8;
+  height: 50px;
+  width: 50px;
+}
+
+footer > a:nth-child(1) {
+  -webkit-clip-path: circle(75%);
+          clip-path: circle(75%);
+  -webkit-transition: -webkit-clip-path 1s;
+  transition: -webkit-clip-path 1s;
+  transition: clip-path 1s;
+  transition: clip-path 1s, -webkit-clip-path 1s;
+}
+
+footer > a:nth-child(1):hover {
+  -webkit-clip-path: circle(25%);
+          clip-path: circle(25%);
+  background: orange;
+}
+
+footer > a:nth-child(2) {
+  -webkit-clip-path: circle(75%);
+          clip-path: circle(75%);
+  -webkit-transition: -webkit-clip-path 1s;
+  transition: -webkit-clip-path 1s;
+  transition: clip-path 1s;
+  transition: clip-path 1s, -webkit-clip-path 1s;
+}
+
+footer > a:nth-child(2):hover {
+  -webkit-clip-path: circle(25%);
+          clip-path: circle(25%);
+  background: blue;
+}
+
+footer > a:nth-child(3) {
+  -webkit-clip-path: circle(75%);
+          clip-path: circle(75%);
+  -webkit-transition: -webkit-clip-path 1s;
+  transition: -webkit-clip-path 1s;
+  transition: clip-path 1s;
+  transition: clip-path 1s, -webkit-clip-path 1s;
+}
+
+footer > a:nth-child(3):hover {
+  -webkit-clip-path: circle(25%);
+          clip-path: circle(25%);
+  background: red;
+}
+
+footer > a:nth-child(4) {
+  -webkit-clip-path: circle(75%);
+          clip-path: circle(75%);
+  -webkit-transition: -webkit-clip-path 1s;
+  transition: -webkit-clip-path 1s;
+  transition: clip-path 1s;
+  transition: clip-path 1s, -webkit-clip-path 1s;
+}
+
+footer > a:nth-child(4):hover {
+  -webkit-clip-path: circle(25%);
+          clip-path: circle(25%);
+  background: purple;
+}
+
+footer > a:nth-child(5) {
+  -webkit-clip-path: circle(75%);
+          clip-path: circle(75%);
+  -webkit-transition: -webkit-clip-path 1s;
+  transition: -webkit-clip-path 1s;
+  transition: clip-path 1s;
+  transition: clip-path 1s, -webkit-clip-path 1s;
+}
+
+footer > a:nth-child(5):hover {
+  -webkit-clip-path: circle(25%);
+          clip-path: circle(25%);
+  background: green;
 }
 
 .intro {
@@ -230,6 +310,10 @@ div .design-selection nav ul li, .design-archives nav ul li, .zen-resources nav 
 
 div .design-selection ul li a, .design-archives ul li a, .zen-resources ul li a {
   text-decoration: none;
+}
+
+div .design-selection ul li a:hover, .design-archives ul li a:hover, .zen-resources ul li a:hover {
+  color: white;
 }
 
 .design-name {

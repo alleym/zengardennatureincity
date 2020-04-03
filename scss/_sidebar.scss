@@ -5,41 +5,83 @@ $color-3: #E6D5BE; // light gray - rgb(230, 213, 190)
 $color-4: #302A26; // dark gray - rgb(48, 42, 38)
 $color-5: #C4EC76; // light green - rgb(196, 236, 118)
 
+// SIDEBAR CONTAINER
 .sidebar {
     display: flex;
     flex-direction: column;
-}
-.sidebar {
     background: $color-3;
     padding: 3em;
     margin-top: -50px;
     z-index: -100;
     margin-right: 15px;
+    
 }
-
-.select, .archives, .resources {
+// SIDE BAR TITLES
+.select, .archives {
     color: $color-1;
     text-transform: uppercase;
+    font-size: 1em;
     }
+.resources {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
 
+}
 
-div .design-selection, .design-archives, .zen-resources {
-   
-    nav ul li {
-        list-style-type: none;
-        text-decoration: none;
-         margin: 0;
-        padding: 0;
-        margin: 0 0 0 -1em;
+    // SIDE BAR SECTION ONE
+.design-selection nav ul {    
+    li {
         color: $color-4;
+        list-style-type: none;
+        margin: 0 0 0 -2em;        
         line-height: .3;
         padding: 10px;
+      } 
+    li a {
+        text-decoration: none;      
       }
+     li a:hover {
+color: white;
+    }
+}  
+
+// SIDEBAR SECTION TWO
+
+.design-archives nav ul {
     
-      
+    list-style-type: none;     
+    padding: 10px;
+    
+        li a {
+            color: $color-4;
+            text-decoration: none;      
+             }
+        li a:hover {
+            color: white;
+    }
+} 
+
+// SIDE BAR SECTION THREE
+.zen-resources  { 
+    background: $color-1; 
+    box-shadow: 3px 3px $color-2; 
+    
+ ul li {  
+        list-style-type: none;
+        text-align: center;  
+        line-height: .3;
+        padding: 14px;
+      } 
     ul li a {
-        text-decoration: none;       
-        
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+           }
+     li a:hover {
+color: white;
     }
 }  
 
@@ -57,7 +99,7 @@ div .design-selection, .design-archives, .zen-resources {
     }
 
 }  
-nav ul li a .designer-name  {
+.designer-name  {
     color: $color-4;
     font-style: italic;
     line-height: 1em;
