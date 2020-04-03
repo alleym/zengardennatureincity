@@ -10,29 +10,34 @@
   grid-template-columns: auto;
   gap: 1rem;
   margin: 1rem;
-  }
+}
 .main {
-    background-color: $color-3;
+    background-color: $color-2;
     padding: 1rem;
 }
+
 // Explanation
 #zen-explanation {
-    background: url(../images/px-visnu-deva-WZBSRWPKBDw-unsplash-w800-h400-lowres.jpg);
+    background: url(../images/man-sitting-on-concrete-block-w800-h533-lowres.jpg);
     background-position: center;
     background-size: cover;
     padding: 2rem;
-    opacity: .7;
 }
 #zen-explanation > h3 {
-    color: black;
-    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: left;
+    border-bottom: 2px solid white;
 }
 #zen-explanation > p {
     color: black;
-    padding: 20px;
-    // border-radius: 25px;
+    font-weight: 900;
+    padding: 1rem;
+    font-size: 1.2rem;
     background-color: white;
-    opacity: .9;
+    opacity: .8;
+    margin: 0;
 } 
 
 // Participation
@@ -43,72 +48,68 @@
     padding: 2rem;
 }
 #zen-participation > h3 {
-    color: black;
-    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: left;
+    border-bottom: 2px solid white;
 }
 #zen-participation > p {
     color: black;
-    padding: 20px;
-    // border-radius: 25px;
+    font-weight: 900;
+    padding: 1rem;
+    font-size: 1.2rem;
     background-color: white;
-    opacity: .9;
+    opacity: .8;
+    margin: 0;
 }
 
 // benefits
 #zen-benefits {
-    position: relative;
     background: url(../images/steffi-pereira-DsDaET_OlCw-unsplash-w800-h533-lowres.jpg);
     background-position: center;
     background-size: cover;
     padding: 2rem;
-    height: 300px;
 }
 #zen-benefits > h3 {
-    display: block;
-    text-align: center;
-    color: black;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: left;
+    border-bottom: 2px solid white;
 }
 #zen-benefits > p {
-    display: none;
+    color: black;
+    font-weight: 900;
     padding: 1rem;
-    position: absolute;
-    bottom: 0;
-    margin-left:-100%;
-    transition: all .4s ease;
-  }
-#zen-benefits:hover > h3 {
-    display: none;
-  }
-#zen-benefits:hover > p {
-    display: block;
-    color: white;
-    background-color: #302A26;
-    opacity: .6;
-    margin-right: 2rem;
-    margin-left: 0;
-    padding: 1rem;
-    cursor:pointer;
-    transition: all .4s ease;
-  }
+    font-size: 1.2rem;
+    background-color: white;
+    opacity: .8;
+    margin: 0;
+}
 
 // Requirements
 #zen-requirements {
-    background: url(../images/keytion-rNoHD6BoQbo-unsplash-w800-h800-lowres.jpg);
+    background: url(../images/keytion-rNoHD6BoQbo-unsplash-w800-h800-lowres.png);
     background-position: center;
     background-size: cover;
     padding: 2rem;
-    opacity: .7;
 }
 #zen-requirements > h3 {
-    color: black;
-    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: left;
+    border-bottom: 2px solid white;
 }
 #zen-requirements > p {
     color: black;
-    padding: 20px;
-    // border-radius: 25px;
+    font-weight: 900;
+    padding: 1rem;
+    font-size: 1.2rem;
     background-color: white;
-    opacity: .9;
+    opacity: .8;
+    margin: 0;
 }
 #zen-requirements > p:nth-last-child(1) {
 margin-bottom: 24rem;
@@ -119,10 +120,10 @@ footer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
     grid-template-rows: repeat(auto-fill, minmax(2rem, 60px));
-    gap: 1rem;
-    height: 200px;
+    gap: 4rem;
+    height: 300px;
     justify-content: center;
-    background: url(../images/px-visnu-deva-WZBSRWPKBDw-unsplash-w800-h400-lowres.jpg);
+    background: url(../images/visnu-deva-WZBSRWPKBDw-unsplash-w800-h400-lowres-cropped.jpg);
     background-position-y: center;
     background-size: cover;
     padding: 2rem;
@@ -130,7 +131,62 @@ footer {
 footer > a {
     color: white;
     text-align: center;
-    padding: 1rem;
+    justify-content: center;
+    font-weight: 900;
     background-color: #302A26;
     opacity: .8;
+    height: 80px;
+    width: 80px;
 } 
+// CSS Shapes Animations
+// Shape 1 *****************************
+footer > a:nth-child(1) {
+    clip-path: circle(75%);
+    transition: clip-path 1s;
+}
+footer > a:nth-child(1):hover {
+    color: black;
+    clip-path: circle(25%);
+    background: orange;
+} 
+// Shape 2 ********************************
+footer > a:nth-child(2):hover {
+    background-color: transparent;
+    color: black;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid blue;
+}
+// Shape 3
+footer > a:nth-child(3) {
+    clip-path: circle(75%);
+    transition: clip-path 1s;
+}
+footer > a:nth-child(3):hover {
+    color: black;
+    clip-path: circle(25%);
+    background: red;
+} 
+// Shape 4
+footer > a:nth-child(4):hover {
+    background-color: transparent;
+    color: black;
+    border-bottom: 50px solid purple;
+    border-left: 12.5px solid transparent;
+    border-right: 12.5px solid transparent;
+    height: 0;
+    width: 50px;
+}
+// Shape 5
+footer > a:nth-child(5) {
+    clip-path: circle(75%);
+    transition: clip-path 1s;
+}
+footer > a:nth-child(5):hover {
+    color: black;
+    clip-path: circle(25%);
+    background: green;
+} 
+  
