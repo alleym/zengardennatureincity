@@ -208,7 +208,8 @@ header h2 {
 div .summary, div .preamble {
   margin-left: 1rem;
   margin-right: 1rem;
-  background-color: #C4EC76; }
+  background-color: #C4EC76;
+  padding: 50px; }
 
 div .summary {
   margin-top: 1rem;
