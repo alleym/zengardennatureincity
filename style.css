@@ -204,22 +204,31 @@ div .summary {
   display: flex;
   flex-direction: column;
   background: #E6D5BE;
-  padding: 3em;
-  margin-top: -50px;
   z-index: -100;
-  margin-right: 15px; }
+  margin-right: 16px; }
 
-.select, .archives {
+.select {
   color: #78A83B;
   text-transform: uppercase;
-  font-size: 1em; }
+  font-size: 1.3em;
+  text-shadow: 1px 1px 4px white;
+  text-align: center;
+  padding: 10px; }
 
 .resources {
   color: white;
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 1.3em;
   text-align: center;
-  padding: 1em; }
+  padding: .5em;
+  margin: 10px; }
+
+.archives {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  text-shadow: 1px 1px #DC9A76;
+  text-align: center; }
 
 .design-selection nav ul li {
   color: #302A26;
@@ -232,24 +241,31 @@ div .summary {
 .design-selection nav ul li a:hover {
   color: white; }
 
-.design-archives nav ul {
-  list-style-type: none;
-  padding: 10px; }
-  .design-archives nav ul li a {
-    color: #302A26;
+.design-archives {
+  background: #DC9A76;
+  margin: 8px;
+  text-align: center;
+  box-shadow: 1px 1px 4px white;
+  border: solid 1px white; }
+  .design-archives ul {
+    list-style-type: none;
+    padding: 10px; }
+  .design-archives li a {
+    color: white;
     text-decoration: none; }
-  .design-archives nav ul li a:hover {
+  .design-archives li a:hover {
     color: white; }
 
 .zen-resources {
   background: #78A83B;
-  box-shadow: 3px 3px #DC9A76; }
-  .zen-resources ul li {
+  margin: 8px;
+  border: 1px solid white;
+  box-shadow: 1px 1px 4px white; }
+  .zen-resources ul {
     list-style-type: none;
     text-align: center;
-    line-height: .3;
-    padding: 14px; }
-  .zen-resources ul li a {
+    margin-left: -2em; }
+  .zen-resources li a {
     text-decoration: none;
     text-transform: uppercase;
     color: white; }
