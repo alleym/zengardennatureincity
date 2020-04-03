@@ -224,23 +224,23 @@ div .summary {
 
 .select {
   color: #78A83B;
-  text-transform: uppercase;
+  text-transform: UPPERCASE;
   font-size: 1.3em;
-  text-shadow: 1px 1px 4px white;
+  text-shadow: 1px 1px 4px #ffffff;
   text-align: center;
   padding: 10px; }
 
 .resources {
-  color: white;
-  text-transform: uppercase;
+  color: #ffffff;
+  text-transform: UPPERCASE;
   font-size: 1.3em;
   text-align: center;
   padding: .5em;
   margin: 10px; }
 
 .archives {
-  color: white;
-  text-transform: uppercase;
+  color: #ffffff;
+  text-transform: UPPERCASE;
   font-size: 1.3em;
   text-shadow: 1px 1px #DC9A76;
   text-align: center; }
@@ -254,47 +254,47 @@ div .summary {
 .design-selection nav ul li a {
   text-decoration: none; }
 .design-selection nav ul li a:hover {
-  color: white; }
+  color: #ffffff; }
 
 .design-archives {
   background: #DC9A76;
   margin: 8px;
   text-align: center;
-  box-shadow: 1px 1px 4px white;
-  border: solid 1px white; }
+  box-shadow: 1px 1px 4px #ffffff;
+  border: solid 1px #ffffff; }
   .design-archives ul {
     list-style-type: none;
     padding: 10px; }
   .design-archives li a {
-    color: white;
+    color: #ffffff;
     text-decoration: none; }
   .design-archives li a:hover {
-    color: white; }
+    color: #ffffff; }
 
 .zen-resources {
   background: #78A83B;
   margin: 8px;
-  border: 1px solid white;
-  box-shadow: 1px 1px 4px white; }
+  border: 1px solid #ffffff;
+  box-shadow: 1px 1px 4px #ffffff;
+  border-radius: 3px; }
   .zen-resources ul {
     list-style-type: none;
     text-align: center;
     margin-left: -2em; }
   .zen-resources li a {
     text-decoration: none;
-    text-transform: uppercase;
-    color: white; }
+    color: #ffffff; }
   .zen-resources li a:hover {
-    color: white; }
+    color: #ffffff; }
 
 .design-name {
   color: #78A83B;
-  text-transform: uppercase;
+  text-transform: UPPERCASE;
   font-size: 1.1em;
   line-height: 2em;
   font-weight: bold; }
   .design-name .design-name a:hover {
-    color: white; }
+    color: #ffffff; }
 
 .designer-name {
   color: #302A26;
@@ -348,3 +348,5 @@ p {
     grid-row-end: 11;
     grid-column-start: 4;
     grid-column-end: 5; } }
+
+/*# sourceMappingURL=style.css.map */
