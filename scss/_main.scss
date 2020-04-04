@@ -1,10 +1,14 @@
 // VARIABLES
- $color-1: #78A83B; // green - rgb(120, 168, 59)
- $color-2: #DC9A76; // peach - rgb(220, 154, 118)
- $color-3: #E6D5BE; // light gray - rgb(230, 213, 190)
- $color-4: #302A26; // dark gray - rgb(48, 42, 38)
- $color-5: #C4EC76; // light green - rgb(196, 236, 118)
-
+// $color-1: #78A83B; // green - rgb(120, 168, 59)
+// $color-2: #DC9A76; // peach - rgb(220, 154, 118)
+// $color-3: #E6D5BE; // light gray - rgb(230, 213, 190)
+// $color-4: #302A26; // dark gray - rgb(48, 42, 38)
+// $color-5: #C4EC76; // light green - rgb(196, 236, 118)
+// $color-6: #ffffff; // white
+// $color-7: #000000; // black
+// $text-upper: UPPERCASE;
+// $font-body: 'Gothic A1', sans-serif;
+// $font-headers: 'Uncial Antiqua', cursive;
 .main {
   display: grid;
   grid-template-columns: auto;
@@ -24,19 +28,19 @@
     padding: 2rem;
 }
 #zen-explanation > h3 {
-    color: white;
+    color: $color-6;
     font-size: 2.5rem;
     font-weight: 900;
     text-align: left;
-    text-shadow: 4px 4px 4px #000000;
-    border-bottom: 2px solid white;
+    text-shadow: 5px 5px 5px $color-7;
+    border-bottom: 2px solid $color-6;
 }
 #zen-explanation > p {
-    color: black;
+    color: $color-7;
     font-weight: 900;
     padding: 1rem;
     font-size: 1.2rem;
-    background-color: white;
+    background-color: $color-6;
     opacity: .8;
     margin: 0;
 } 
@@ -49,19 +53,19 @@
     padding: 2rem;
 }
 #zen-participation > h3 {
-    color: white;
+    color: $color-6;
     font-size: 2.5rem;
     font-weight: 900;
     text-align: left;
-    text-shadow: 4px 4px 4px #000000;
-    border-bottom: 2px solid white;
+    text-shadow: 5px 5px 5px $color-7;
+    border-bottom: 2px solid $color-6;
 }
 #zen-participation > p {
-    color: black;
+    color: $color-7;
     font-weight: 900;
     padding: 1rem;
     font-size: 1.2rem;
-    background-color: white;
+    background-color: $color-6;
     opacity: .8;
     margin: 0;
 }
@@ -74,19 +78,19 @@
     padding: 2rem;
 }
 #zen-benefits > h3 {
-    color: white;
+    color: $color-6;
     font-size: 2.5rem;
     font-weight: 900;
     text-align: left;
-    text-shadow: 4px 4px 4px #000000;
-    border-bottom: 2px solid white;
+    text-shadow: 5px 5px 5px $color-7;
+    border-bottom: 2px solid $color-6;
 }
 #zen-benefits > p {
-    color: black;
+    color: $color-7;
     font-weight: 900;
     padding: 1rem;
     font-size: 1.2rem;
-    background-color: white;
+    background-color: $color-6;
     opacity: .8;
     margin: 0;
 }
@@ -99,19 +103,19 @@
     padding: 2rem;
 }
 #zen-requirements > h3 {
-    color: white;
+    color: $color-6;
     font-size: 2.5rem;
     font-weight: 900;
     text-align: left;
-    text-shadow: 4px 4px 4px #000000;
-    border-bottom: 2px solid white;
+    text-shadow: 5px 5px 5px $color-7;
+    border-bottom: 2px solid $color-6;
 }
 #zen-requirements > p {
-    color: black;
+    color: $color-7;
     font-weight: 900;
     padding: 1rem;
     font-size: 1.2rem;
-    background-color: white;
+    background-color: $color-6;
     opacity: .8;
     margin: 0;
 }
@@ -133,11 +137,11 @@ footer {
     padding: 2rem;
 }
 footer > a {
-    color: white;
+    color: $color-6;
     text-align: center;
     justify-content: center;
     font-weight: 900;
-    background-color: #302A26;
+    background-color: $color-4;
     opacity: .8;
     height: 80px;
     width: 80px;
@@ -150,14 +154,14 @@ footer > a:nth-child(1) {
     transition: clip-path 1s;
 }
 footer > a:nth-child(1):hover {
-    color: black;
+    color: $color-7;
     clip-path: circle(25%);
     background: orange;
 } 
 // Shape 2 - Triangle ********************************
 footer > a:nth-child(2):hover {
     background-color: transparent;
-    color: black;
+    color: $color-7;
     width: 0;
     height: 0;
     border-left: 40px solid transparent;
@@ -179,7 +183,7 @@ footer > a:nth-child(2):hover {
 // Shape 3 - Oval ******************************
 footer > a:nth-child(3):hover {
     background-color: transparent;
-    color: black;
+    color: $color-7;
     width: 80px;
     height: 40px;
     background-color: green;
@@ -207,7 +211,7 @@ footer > a:nth-child(3):hover {
 // Shape 4 - Trapezoid ******************************
 footer > a:nth-child(4):hover {
     background-color: transparent;
-    color: black;
+    color: $color-7;
     border-bottom: 66px solid purple;
     border-left: 16.5px solid transparent;
     border-right: 16.5px solid transparent;
@@ -224,7 +228,7 @@ footer > a:nth-child(4):hover {
 }
 // Shape 5 - Circle *******************************
 footer > a:nth-child(5):hover {
-    color: black;
+    color: $color-7;
     height: 80px;
     width: 80px;
     background-color: red;
