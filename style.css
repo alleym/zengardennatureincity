@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Gothic+A1|Uncial+Antiqua&display=swap");
 .main {
-  display: grid;
-  grid-template-columns: auto;
-  gap: 1rem;
+  display: flex;
+  flex-direction: column;
   margin: 1rem; }
 
 .main {
@@ -13,22 +12,23 @@
   background: url(../images/man-sitting-on-concrete-block-w800-h533-lowres.jpg);
   background-position: center;
   background-size: cover;
-  padding: 2rem; }
+  padding: 2rem;
+  margin-bottom: 1rem; }
 
 #zen-explanation > h3 {
-  color: white;
+  color: #ffffff;
   font-size: 2.5rem;
   font-weight: 900;
   text-align: left;
   text-shadow: 5px 5px 5px #000000;
-  border-bottom: 2px solid white; }
+  border-bottom: 2px solid #ffffff; }
 
 #zen-explanation > p {
-  color: black;
+  color: #000000;
   font-weight: 900;
   padding: 1rem;
   font-size: 1.2rem;
-  background-color: white;
+  background-color: #ffffff;
   opacity: .8;
   margin: 0; }
 
@@ -36,22 +36,23 @@
   background: url(../images/purple-daisy-w800-h600-lowres.jpg);
   background-position: center;
   background-size: cover;
-  padding: 2rem; }
+  padding: 2rem;
+  margin-bottom: 1rem; }
 
 #zen-participation > h3 {
-  color: white;
+  color: #ffffff;
   font-size: 2.5rem;
   font-weight: 900;
   text-align: left;
   text-shadow: 5px 5px 5px #000000;
-  border-bottom: 2px solid white; }
+  border-bottom: 2px solid #ffffff; }
 
 #zen-participation > p {
-  color: black;
+  color: #000000;
   font-weight: 900;
   padding: 1rem;
   font-size: 1.2rem;
-  background-color: white;
+  background-color: #ffffff;
   opacity: .8;
   margin: 0; }
 
@@ -59,22 +60,23 @@
   background: url(../images/steffi-pereira-DsDaET_OlCw-unsplash-w800-h533-lowres.jpg);
   background-position: center;
   background-size: cover;
-  padding: 2rem; }
+  padding: 2rem;
+  margin-bottom: 1rem; }
 
 #zen-benefits > h3 {
-  color: white;
+  color: #ffffff;
   font-size: 2.5rem;
   font-weight: 900;
   text-align: left;
   text-shadow: 5px 5px 5px #000000;
-  border-bottom: 2px solid white; }
+  border-bottom: 2px solid #ffffff; }
 
 #zen-benefits > p {
-  color: black;
+  color: #000000;
   font-weight: 900;
   padding: 1rem;
   font-size: 1.2rem;
-  background-color: white;
+  background-color: #ffffff;
   opacity: .8;
   margin: 0; }
 
@@ -82,22 +84,23 @@
   background: url(../images/keytion-rNoHD6BoQbo-unsplash-w800-h800-lowres.png);
   background-position: center;
   background-size: cover;
-  padding: 2rem; }
+  padding: 2rem;
+  margin-bottom: 1rem; }
 
 #zen-requirements > h3 {
-  color: white;
+  color: #ffffff;
   font-size: 2.5rem;
   font-weight: 900;
   text-align: left;
   text-shadow: 5px 5px 5px #000000;
-  border-bottom: 2px solid white; }
+  border-bottom: 2px solid #ffffff; }
 
 #zen-requirements > p {
-  color: black;
+  color: #000000;
   font-weight: 900;
   padding: 1rem;
   font-size: 1.2rem;
-  background-color: white;
+  background-color: #ffffff;
   opacity: .8;
   margin: 0; }
 
@@ -117,7 +120,7 @@ footer {
   padding: 2rem; }
 
 footer > a {
-  color: white;
+  color: #ffffff;
   text-align: center;
   justify-content: center;
   font-weight: 900;
@@ -131,13 +134,13 @@ footer > a:nth-child(1) {
   transition: clip-path 1s; }
 
 footer > a:nth-child(1):hover {
-  color: black;
+  color: #000000;
   clip-path: circle(25%);
   background: orange; }
 
 footer > a:nth-child(2):hover {
   background-color: transparent;
-  color: black;
+  color: #000000;
   width: 0;
   height: 0;
   border-left: 40px solid transparent;
@@ -155,7 +158,7 @@ footer > a:nth-child(2):hover {
     transform: rotate(360deg); } }
 footer > a:nth-child(3):hover {
   background-color: transparent;
-  color: black;
+  color: #000000;
   width: 80px;
   height: 40px;
   background-color: green;
@@ -177,7 +180,7 @@ footer > a:nth-child(3):hover {
     background-color: red; } }
 footer > a:nth-child(4):hover {
   background-color: transparent;
-  color: black;
+  color: #000000;
   border-bottom: 66px solid purple;
   border-left: 16.5px solid transparent;
   border-right: 16.5px solid transparent;
@@ -198,7 +201,7 @@ footer > a:nth-child(4):hover {
     left: 0px;
     top: 0px; } }
 footer > a:nth-child(5):hover {
-  color: black;
+  color: #000000;
   height: 80px;
   width: 80px;
   background-color: red;

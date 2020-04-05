@@ -10,10 +10,9 @@
 // $font-body: 'Gothic A1', sans-serif;
 // $font-headers: 'Uncial Antiqua', cursive;
 .main {
-  display: grid;
-  grid-template-columns: auto;
-  gap: 1rem;
-  margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
 }
 .main {
     background-color: $color-2;
@@ -26,6 +25,7 @@
     background-position: center;
     background-size: cover;
     padding: 2rem;
+    margin-bottom: 1rem;
 }
 #zen-explanation > h3 {
     color: $color-6;
@@ -51,6 +51,8 @@
     background-position: center;
     background-size: cover;
     padding: 2rem;
+    margin-bottom: 1rem;
+
 }
 #zen-participation > h3 {
     color: $color-6;
@@ -76,6 +78,8 @@
     background-position: center;
     background-size: cover;
     padding: 2rem;
+    margin-bottom: 1rem;
+
 }
 #zen-benefits > h3 {
     color: $color-6;
@@ -101,6 +105,8 @@
     background-position: center;
     background-size: cover;
     padding: 2rem;
+    margin-bottom: 1rem;
+
 }
 #zen-requirements > h3 {
     color: $color-6;
